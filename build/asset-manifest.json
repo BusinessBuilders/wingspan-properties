@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wingspan-properties/static/css/main.1f8640a3.css",
+    "main.js": "/wingspan-properties/static/js/main.8d1959f5.js",
+    "index.html": "/wingspan-properties/index.html",
+    "main.1f8640a3.css.map": "/wingspan-properties/static/css/main.1f8640a3.css.map",
+    "main.8d1959f5.js.map": "/wingspan-properties/static/js/main.8d1959f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8640a3.css",
+    "static/js/main.8d1959f5.js"
+  ]
+}

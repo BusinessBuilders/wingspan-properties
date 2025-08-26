@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background: linear-gradient(135deg, #2d5016 0%, #4a7c2a 100%);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.company-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.tagline {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.main-content {
+  padding: 80px 0;
+}
+
+.video-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2d5016;
+  margin-bottom: 40px;
+}
+
+.video-container {
+  position: relative;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.download-section {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 30px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 10px;
+}
+
+.download-btn {
+  background: linear-gradient(135deg, #28a745 0%, #34ce57 100%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgba(40, 167, 69, 0.4);
+}
+
+.download-note {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.project-details {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  margin-bottom: 50px;
+}
+
+.project-details h3 {
+  color: #2d5016;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-details > p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  text-align: center;
+}
+
+.contact-section {
+  background: white;
+  padding: 50px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-section h3 {
+  color: #2d5016;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact-details p {
+  color: #2d5016;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.footer {
+  background: #2d5016;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .company-name {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  .video-section h2 {
+    font-size: 2rem;
+  }
+
+  .project-details, .contact-section {
+    padding: 30px 20px;
+  }
+
+  .contact-details {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
